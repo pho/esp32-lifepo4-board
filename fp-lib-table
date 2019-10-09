@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name symbols)(type KiCad)(uri ${KIPRJMOD}/symbols)(options "")(descr ""))
+)
