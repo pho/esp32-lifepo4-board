@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>O:\Docs\PCB Design\esp32-lifepo4\esp32-lifepo4\esp32-lifepo4.sch</source>
-    <date>09/10/2019 11:46:16</date>
+    <date>09/10/2019 12:34:06</date>
     <tool>Eeschema (5.0.2)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -39,7 +39,7 @@
       <footprint>Resistors:0805</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">1234</field>
+        <field name="LCSC">R123</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -96,6 +96,9 @@
     <comp ref="U3">
       <value>TPS709</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="ignorebom">1</field>
+      </fields>
       <libsource lib="tps709" part="TPS709" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D9D3CAD</tstamp>
@@ -104,6 +107,9 @@
       <value>SolderJumper_2_Open</value>
       <footprint>Jumpers:SMT-JUMPER_2_NO_SILK</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="nobom">true</field>
+      </fields>
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D9D486D</tstamp>
@@ -119,6 +125,9 @@
       <value>Conn_01x12</value>
       <footprint>Connectors Sparkfun:1X12</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="nobom">true</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5DA2DEA0</tstamp>
@@ -127,6 +136,9 @@
       <value>Conn_01x12</value>
       <footprint>Connectors Sparkfun:1X12</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="nobom">true</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5DA317A6</tstamp>

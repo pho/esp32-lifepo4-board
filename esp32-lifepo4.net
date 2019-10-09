@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "O:\\Docs\\PCB Design\\esp32-lifepo4\\esp32-lifepo4\\esp32-lifepo4.sch")
-    (date "09/10/2019 11:46:27")
+    (date "09/10/2019 12:01:53")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -33,7 +33,7 @@
       (footprint Resistors:0805)
       (datasheet ~)
       (fields
-        (field (name LCSC) 1234))
+        (field (name LCSC) R123))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D9D10F5))
